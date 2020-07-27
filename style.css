@@ -1,0 +1,106 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+body{
+background:url(https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) ;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+
+nav{
+  width:100%;
+  height:60px;
+  background-color: #a18cd1;
+}
+
+nav p{
+  font-family: 'Poppins', sans-serif;
+  color:#222;
+  font-size:24px;
+  line-height:55px;
+  float:left;
+  padding-left:10px;
+}
+
+.navItems{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  text-align:center;
+  width:90%;
+  line-height:55px;
+  padding-right:20px;
+}
+
+nav ul{
+  float:left;
+}
+
+nav ul li{
+  float:left;
+  list-style:none;
+  position:relative;
+
+}
+nav ul li a{
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  font-size:16px;
+  text-decoration:none;
+}
+
+nav ul li a:hover{
+  border-bottom:4px solid blue;
+}
+
+nav ul li ul{
+  display:none;
+  position:absolute;
+  background-color:white;
+   width:180%;
+  height:210%;
+  padding:10px;
+}
+
+nav ul li:hover ul{
+  display:block;
+}
+
+nav ul li ul li a{
+color:black;
+padding:10px;
+}
+
+nav ul li ul li a:hover{
+background-color:#f3f3f3;
+padding:10px;
+}
+
+/*  menu items*/
+nav ul li .menu-items{
+  display:none;
+  position:absolute;
+  background-color:white;
+   width:280%;
+  height:210%;
+  padding:10px;
+}
+
+nav ul li:hover ul{
+  display:block;
+}
+
+nav ul li ul li a{
+color:black;
+padding:10px;
+
+
+}
+
+nav ul li ul li a:hover{
+background-color:#f3f3f3;
+padding:10px;
+}
